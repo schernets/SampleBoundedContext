@@ -3,6 +3,8 @@ using Castle.Windsor;
 using Nancy;
 using Nancy.Bootstrapper;
 using Nancy.Bootstrappers.Windsor;
+using SampleBoundedContext.ApplicationServices;
+using SampleBoundedContext.ApplicationServices.Interfaces;
 using SampleBoundedContext.Models;
 using SampleBoundedContext.Models.Interfaces;
 

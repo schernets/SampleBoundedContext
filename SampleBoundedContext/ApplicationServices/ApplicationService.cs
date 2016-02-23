@@ -1,7 +1,7 @@
 ﻿using System;
-using SampleBoundedContext.Models.Interfaces;
+using SampleBoundedContext.ApplicationServices.Interfaces;
 
-namespace SampleBoundedContext.Models
+namespace SampleBoundedContext.ApplicationServices
 {
     public class ApplicationService : IApplicationService
     {

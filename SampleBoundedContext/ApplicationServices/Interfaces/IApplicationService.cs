@@ -1,4 +1,4 @@
-﻿namespace SampleBoundedContext.Models.Interfaces
+﻿namespace SampleBoundedContext.ApplicationServices.Interfaces
 {
     public interface IApplicationService
     {

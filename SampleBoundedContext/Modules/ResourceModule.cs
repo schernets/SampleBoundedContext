@@ -1,5 +1,6 @@
 ﻿using System;
 using Nancy;
+using SampleBoundedContext.ApplicationServices.Interfaces;
 using SampleBoundedContext.Models;
 using SampleBoundedContext.Models.Interfaces;
 

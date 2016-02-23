@@ -51,6 +51,14 @@
       <HintPath>..\packages\log4net.2.0.3\lib\net40-full\log4net.dll</HintPath>
       <Private>True</Private>
     </Reference>
+    <Reference Include="MediaValet.Core, Version=1.0.16048.2, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\MediaValet.Core.1.0.0.976\lib\net451\MediaValet.Core.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="MediaValet.Core.DDD, Version=1.0.16048.2, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\MediaValet.Core.DDD.1.0.0.974-prerelease\lib\net451\MediaValet.Core.DDD.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="Microsoft.AI.Agent.Intercept, Version=1.2.0.1011, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <HintPath>..\packages\Microsoft.ApplicationInsights.Agent.Intercept.1.2.0\lib\net45\Microsoft.AI.Agent.Intercept.dll</HintPath>
       <Private>True</Private>
@@ -100,6 +108,10 @@
       <HintPath>..\packages\Nancy.Hosting.Aspnet.1.4.1\lib\net40\Nancy.Hosting.Aspnet.dll</HintPath>
       <Private>True</Private>
     </Reference>
+    <Reference Include="Newtonsoft.Json, Version=7.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.7.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="Swashbuckle.Core">
       <HintPath>..\packages\Swashbuckle.Core.5.0.0\lib\net40\Swashbuckle.Core.dll</HintPath>
     </Reference>
@@ -139,9 +151,6 @@
     <Reference Include="WebActivatorEx">
       <HintPath>..\packages\WebActivatorEx.2.0.6\lib\net40\WebActivatorEx.dll</HintPath>
     </Reference>
-    <Reference Include="Newtonsoft.Json">
-      <HintPath>..\packages\Newtonsoft.Json.6.0.4\lib\net45\Newtonsoft.Json.dll</HintPath>
-    </Reference>
     <Reference Include="System.Net.Http.Formatting">
       <HintPath>..\packages\Microsoft.AspNet.WebApi.Client.5.2.3\lib\net45\System.Net.Http.Formatting.dll</HintPath>
     </Reference>
@@ -171,9 +180,9 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Models\ApplicationService.cs" />
+    <Compile Include="ApplicationServices\ApplicationService.cs" />
     <Compile Include="Models\Interfaces\ISampleTransientService.cs" />
-    <Compile Include="Models\Interfaces\IApplicationService.cs" />
+    <Compile Include="ApplicationServices\Interfaces\IApplicationService.cs" />
     <Compile Include="Models\SampleTransientService.cs" />
     <Compile Include="Modules\ResourceModule.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
