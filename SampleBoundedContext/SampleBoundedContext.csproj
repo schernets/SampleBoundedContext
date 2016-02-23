@@ -181,6 +181,7 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="ApplicationServices\ApplicationService.cs" />
+    <Compile Include="Models\Asset\AssetId.cs" />
     <Compile Include="Models\Interfaces\ISampleTransientService.cs" />
     <Compile Include="ApplicationServices\Interfaces\IApplicationService.cs" />
     <Compile Include="Models\SampleTransientService.cs" />
